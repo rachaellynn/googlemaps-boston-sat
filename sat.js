@@ -1,5 +1,5 @@
-      var mykey = config.GOOGLE_MAPS_API_KEY;
-      console.log(mykey);
+      //var mykey = config.GOOGLE_MAPS_API_KEY;
+      mykey = ENV['GOOGLE_MAPS_API_KEY'];
 
       var map;
       function initMap() {
