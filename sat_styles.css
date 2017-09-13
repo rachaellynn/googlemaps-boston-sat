@@ -1,0 +1,58 @@
+#map {
+    height: 100%; /* of page */
+}
+      /* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%; /* of the page */
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 32px;
+  margin: 0px;
+}
+
+img {
+  width: 106%;
+  padding: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 10px;
+}
+p {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 16px;
+}
+
+#map {
+  overflow: hidden;
+}
+
+/* the below is amazing -- it makes my scrollbar invisible (in chrome and safari at least! */
+::-webkit-scrollbar { 
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+#sidebar {
+  width: 30%; 
+  height: 90%;
+  position:fixed;
+  top:35px;
+  left:10px;
+  padding:10px;
+  overflow-y: scroll;
+}
+
+.card {
+  background-color:white; /*powderblue*/
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.material-icons {
+  color: red;
+  font-size: 50px;
+}

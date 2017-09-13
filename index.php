@@ -1,0 +1,1 @@
+<?php header( 'Location: /sat_map_1709.html.html' ) ;  ?>
